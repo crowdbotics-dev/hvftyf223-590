@@ -8,16 +8,24 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('home', '0001_load_initial_data'),
+        ("home", "0001_load_initial_data"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Cvcvdj',
+            name="Cvcvdj",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('bcbcjd', models.BigIntegerField()),
-                ('cbxnxk', models.BigIntegerField()),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("bcbcjd", models.BigIntegerField()),
+                ("cbxnxk", models.BigIntegerField()),
             ],
         ),
     ]
