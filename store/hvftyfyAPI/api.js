@@ -1,6 +1,6 @@
 import axios from "axios"
 const hvftyfyAPI = axios.create({
-  baseURL: "https://hvftyfy-590.botics.co",
+  baseURL: "https://hvftyf223-590.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
